@@ -8,21 +8,30 @@
     <link rel="stylesheet" href="https://use.typekit.net/izx7ppy.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <title>Mette Lund</title>
+    <script src="nav.js" defer></script>
 </head>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fa fa-bars"></i>
-        </label>
-        <img class="logo" src="logo180.png" alt="Mette Lund Multimediedesigner">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html" target="_self">About</a></li>
-            <li><a href="mywork.html" target="_self">My Work</a></li>
-            <li><a class="active" href="#" target="_self">Contact</a></li>
+    <nav class="navbar">
+        <img class="logo" src="billeder/logo180.png" alt="Mette Lund Multimediedesigner">
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="index.html" target="_self" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" target="_self" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a href="mywork.html" target="_self" class="nav-link">MY WORK</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" target="_self" class="nav-link">CONTACT</a>
+            </li>
         </ul>
-        
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </nav>
 
     <section>
@@ -59,7 +68,7 @@
             <li><a href="https://www.instagram.com/mettelund3/" target="_blank"><i class="bi bi-instagram"></i></a></li>
         </ul>
         <ul class="pfoot">
-            &copy; 2022 - Mette Lund
+            &copy; 2023 - Mette Lund
         </ul>
         </div>
     </footer>
